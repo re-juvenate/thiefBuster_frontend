@@ -7,16 +7,48 @@
     </ul>
 </nav>
 
-
-
-<h1 class="title">THIEF BUSTER</h1>
-<p>Your AI companion for catching thieves.</p>
+<h1 class="title"><span class="pinyon-script">T </span>HIEF BUSTER</h1>
+<p class="subtitle">Your AI companion for catching thieves.</p>
 
 <style>
-    .title {
+
+    @font-face{
+        font-family: HelveticaDisplay;
+        src: url("../src/assets/fonts/HelveticaNowDisplay-Regular.otf")
+    }
+    @font-face {
+    font-family: Roslindale;
+    src: url("../src/assets/fonts/RoslindaleVariableDisplay.ttf");
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap')
+
+    
+    .roslindale{
+        font-family: Roslindale;
+    }
+
+    .pinyon-script{
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-size: 23vh;
+    font-style: normal;
+    }
+    
+    .subtitle{
+        font-weight: 300;
+        font-size: 1rem;
+        margin: 0 auto;
         text-align: center;
-        display: flex;
-        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        font-family: roslindale;
+        font-weight: lighter;
+        font-size: 6rem;
+        margin: 25vh auto;
+        text-align: center;
         align-items: center;
     }
     .navbar {
