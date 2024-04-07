@@ -16,6 +16,7 @@
         font-family: HelveticaDisplay;
         src: url("../src/assets/fonts/HelveticaNowDisplay-Regular.otf")
     }
+    
     @font-face {
     font-family: Roslindale;
     src: url("../src/assets/fonts/RoslindaleVariableDisplay.ttf");
