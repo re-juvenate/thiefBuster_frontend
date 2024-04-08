@@ -2,7 +2,7 @@
 
 <nav class="navbar" class:scrolled={show}>
   <ul class="navbar-list">
-    <li><img src="logo.png" alt="Logo"></li>
+    <li><img src="../src/assets/images/logo.png" alt="Logo"></li>
         <li><a href="#about">About</a></li>
         <li><a href="#usage">Usage</a></li>
         <li><a href="#etc">Etc</a></li>
@@ -26,7 +26,7 @@
   {#if show}
   <nav class="navbar">
     <ul class="navbar-list">
-        <li><img src="logo.png" alt="Logo"></li>
+        <li><img src="../src/assets/images/logo.png" alt="Logo"></li>
         <a style="--clr: #7808d0; float: right;" class="button" href="#demo">
             <span class="button__icon-wrapper">
                 <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
@@ -51,6 +51,8 @@
 
 <!-- CSS -->
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+  
     @font-face{
         font-family: HelveticaDisplay;
         src: url("../src/assets/fonts/HelveticaNowDisplay-Regular.otf")
@@ -64,10 +66,10 @@
     src: url("../src/assets/fonts/RoslindaleVariableDisplay.ttf");
     }
 
-    @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap')
 
     
     .roslindale{
+    
         font-family: Roslindale;
     }
 
