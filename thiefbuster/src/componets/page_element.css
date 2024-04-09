@@ -1,0 +1,19 @@
+.subtitle{
+    font-family: helveticaDisplay;
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin-top: 0rem;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+.title {
+    font-family: roslindale;
+    font-weight: lighter;
+    height: 0vh;
+    font-size: 6rem;
+    margin: 25vh auto;
+    text-align: center;
+    align-items: center;
+}
