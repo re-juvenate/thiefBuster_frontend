@@ -3,7 +3,7 @@
   
     @font-face{
         font-family: HelveticaDisplay;
-        src: url("../src/assets/fonts/HelveticaNowDisplay-Regular.otf")
+        src: url("../assets/fonts/HelveticaDisplay.otf")
     }
 
     *{
@@ -11,7 +11,7 @@
     }
     @font-face {
     font-family: Roslindale;
-    src: url("../src/assets/fonts/RoslindaleVariableDisplay.ttf");
+    src: url("../assets/fonts/RoslindaleVariableDisplay.ttf");
     }
 
 

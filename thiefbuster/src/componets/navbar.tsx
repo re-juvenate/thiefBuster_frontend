@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <nav className={`navbar ${show ? 'scrolled' : ''}`}>
       <ul className="navbar-list">
-        <li><img src="../src/assets/images/logo.png" alt="Logo" /></li>
+        <li><img src="../assets/images/logo.png" alt="Logo" /></li>
         <li><a href="#about">About</a></li>
         <li><a href="#usage">Usage</a></li>
         <li><a href="#etc">Etc</a></li>
