@@ -13,3 +13,10 @@
 input{
     background-color:20;
 }
+
+h3,form,button{
+    margin-left:60px;
+}
+button{
+    margin-top: 10px;
+}
