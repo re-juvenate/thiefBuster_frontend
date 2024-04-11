@@ -1,0 +1,15 @@
+.logo{
+    margin-left: -35px;
+    width: 50px; height: auto;
+}
+
+.title{
+    margin-top: -38px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+input{
+    background-color:20;
+}
